@@ -4,9 +4,7 @@ MAINTAINER Clemens Stolle klaemo@fastmail.fm
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 
-RUN apt-get update && apt-get -y upgrade
-
-RUN apt-get install -y build-essential wget curl
+RUN apt-get update && apt-get install -y build-essential wget curl
 
 # erlang
 RUN apt-get install -y erlang-base-hipe erlang-xmerl erlang-inets erlang-manpages erlang-dev erlang-nox erlang-eunit
