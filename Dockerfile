@@ -15,3 +15,4 @@ RUN apt-get install -y erlang-base-hipe \
   libicu-dev \
   libcurl4-gnutls-dev \
   libtool
+
