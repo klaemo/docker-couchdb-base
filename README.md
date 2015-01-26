@@ -1,7 +1,7 @@
 docker-couchdb-base
 ===
 
-Docker image with updated Ubuntu 12.04 and dependencies for building couchdb
+Docker image with updated Ubuntu 14.04 and dependencies for building couchdb
 
 [docker index klaemo/couchdb-base](https://index.docker.io/u/klaemo/couchdb-base/)
 
